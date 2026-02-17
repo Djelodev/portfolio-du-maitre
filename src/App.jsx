@@ -126,7 +126,7 @@ export default function App() {
               style={{ scale, rotate: rotateHero }}
               className="relative w-full aspect-square border-8 border-black shadow-[20px_20px_0px_0px_rgba(255,0,122,1)] overflow-hidden bg-gray-200 group"
             >
-              <div className="absolute inset-0 flex items-center justify-center text-black font-black text-center p-8 z-10 group-hover:opacity-0 transition-opacity bg-white/50 backdrop-blur-sm">
+              <div className="absolute inset-0 flex items-center justify-center text-black font-black text-center p-8 z-10 opacity-0 md:opacity-100 md:group-hover:opacity-0 transition-opacity bg-white/50 backdrop-blur-sm">
                 [ PHOTO LÉGENDAIRE D'ANGE ]
               </div>
               <img 

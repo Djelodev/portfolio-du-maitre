@@ -129,7 +129,7 @@ export default function App() {
                 [ PHOTO LÉGENDAIRE D'ANGE ]
               </div>
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop" 
+                src="public/djelo.jpg" 
                 alt="Ange Irie Bi"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />
@@ -229,19 +229,19 @@ export default function App() {
             <div className="grid grid-cols-2 gap-4 order-1 md:order-2">
               <div className="border-4 border-black bg-white aspect-[3/4] overflow-hidden shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] relative group">
                 <div className="absolute inset-0 flex items-center justify-center bg-black/40 text-white opacity-0 group-hover:opacity-100 transition-opacity z-10 font-black">VISION</div>
-                <img src="https://images.unsplash.com/photo-1519085184628-6607c7402f78?q=80&w=600" className="w-full h-full object-cover grayscale" />
+                <img src="public/djelo.jpg" className="w-full h-full object-cover grayscale" />
               </div>
               <div className="border-4 border-black bg-white aspect-[3/4] overflow-hidden shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] translate-y-8 relative group">
                  <div className="absolute inset-0 flex items-center justify-center bg-black/40 text-white opacity-0 group-hover:opacity-100 transition-opacity z-10 font-black">FOCUS</div>
-                 <img src="https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=600" className="w-full h-full object-cover grayscale" />
+                 <img src="public/djelo.jpg" className="w-full h-full object-cover grayscale" />
               </div>
               <div className="border-4 border-black bg-white aspect-[3/4] overflow-hidden shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] -translate-y-8 relative group">
                  <div className="absolute inset-0 flex items-center justify-center bg-black/40 text-white opacity-0 group-hover:opacity-100 transition-opacity z-10 font-black">BRILLANCE</div>
-                 <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=600" className="w-full h-full object-cover grayscale" />
+                 <img src="public/djelo.jpg" className="w-full h-full object-cover grayscale" />
               </div>
               <div className="border-4 border-black bg-white aspect-[3/4] overflow-hidden shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] relative group">
                  <div className="absolute inset-0 flex items-center justify-center bg-black/40 text-white opacity-0 group-hover:opacity-100 transition-opacity z-10 font-black">ÉLITE</div>
-                 <img src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=600" className="w-full h-full object-cover grayscale" />
+                 <img src="public/djelo.jpg" className="w-full h-full object-cover grayscale" />
               </div>
             </div>
           </div>

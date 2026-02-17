@@ -53,6 +53,7 @@ export default function App() {
   const { scrollYProgress } = useScroll();
   const scale = useTransform(scrollYProgress, [0, 1], [1, 1.2]);
   const rotateHero = useTransform(scrollYProgress, [0, 1], [0, 25]);
+  const djeloImage = `${import.meta.env.BASE_URL}djelo.jpg`;
 
   const projects = [
     {
@@ -129,7 +130,7 @@ export default function App() {
                 [ PHOTO LÉGENDAIRE D'ANGE ]
               </div>
               <img 
-                src="public/djelo.jpg" 
+                src={djeloImage}
                 alt="Ange Irie Bi"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />
@@ -229,19 +230,19 @@ export default function App() {
             <div className="grid grid-cols-2 gap-4 order-1 md:order-2">
               <div className="border-4 border-black bg-white aspect-[3/4] overflow-hidden shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] relative group">
                 <div className="absolute inset-0 flex items-center justify-center bg-black/40 text-white opacity-0 group-hover:opacity-100 transition-opacity z-10 font-black">VISION</div>
-                <img src="public/djelo.jpg" className="w-full h-full object-cover grayscale" />
+                <img src={djeloImage} className="w-full h-full object-cover grayscale" />
               </div>
               <div className="border-4 border-black bg-white aspect-[3/4] overflow-hidden shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] translate-y-8 relative group">
                  <div className="absolute inset-0 flex items-center justify-center bg-black/40 text-white opacity-0 group-hover:opacity-100 transition-opacity z-10 font-black">FOCUS</div>
-                 <img src="public/djelo.jpg" className="w-full h-full object-cover grayscale" />
+                 <img src={djeloImage} className="w-full h-full object-cover grayscale" />
               </div>
               <div className="border-4 border-black bg-white aspect-[3/4] overflow-hidden shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] -translate-y-8 relative group">
                  <div className="absolute inset-0 flex items-center justify-center bg-black/40 text-white opacity-0 group-hover:opacity-100 transition-opacity z-10 font-black">BRILLANCE</div>
-                 <img src="public/djelo.jpg" className="w-full h-full object-cover grayscale" />
+                 <img src={djeloImage} className="w-full h-full object-cover grayscale" />
               </div>
               <div className="border-4 border-black bg-white aspect-[3/4] overflow-hidden shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] relative group">
                  <div className="absolute inset-0 flex items-center justify-center bg-black/40 text-white opacity-0 group-hover:opacity-100 transition-opacity z-10 font-black">ÉLITE</div>
-                 <img src="public/djelo.jpg" className="w-full h-full object-cover grayscale" />
+                 <img src={djeloImage} className="w-full h-full object-cover grayscale" />
               </div>
             </div>
           </div>

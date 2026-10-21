@@ -140,8 +140,8 @@ export default function App() {
         <div className="hero-stage">
           <motion.div className="hero-kicker" initial={initial} animate="visible" variants={reveal}><span className="kicker-dot" /> PORTFOLIO · 2026 <span className="hero-kicker-line" /></motion.div>
           <motion.h1 className="hero-name" initial={initial} animate="visible" transition={{ staggerChildren: 0.09 }} variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.11, delayChildren: 0.05 } } }}>
-            <motion.span className="hero-name-outline" variants={{ hidden: { opacity: 0, y: 36 }, visible: { opacity: 1, y: 0, transition: { duration: 0.85, ease: [0.22, 1, 0.36, 1] } }}>ANGE IRIE</motion.span>
-            <motion.span className="hero-name-solid" variants={{ hidden: { opacity: 0, y: 36 }, visible: { opacity: 1, y: 0, transition: { duration: 0.85, ease: [0.22, 1, 0.36, 1] } }}>BI<span>.</span></motion.span>
+            <motion.span className="hero-name-outline" variants={{ hidden: { opacity: 0, y: 36 }, visible: { opacity: 1, y: 0, transition: { duration: 0.85, ease: [0.22, 1, 0.36, 1] } } }}>ANGE IRIE</motion.span>
+            <motion.span className="hero-name-solid" variants={{ hidden: { opacity: 0, y: 36 }, visible: { opacity: 1, y: 0, transition: { duration: 0.85, ease: [0.22, 1, 0.36, 1] } } }}>BI<span>.</span></motion.span>
           </motion.h1>
           <motion.div className="portrait-stage" initial={reduceMotion ? false : { opacity: 0, y: 52, scale: 0.97 }} animate={{ opacity: 1, y: 0, scale: 1 }} transition={{ duration: 1, delay: 0.24, ease: [0.22, 1, 0.36, 1] }}>
             <div className="portrait-halo" />

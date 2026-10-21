@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
 import {
-  ArrowDownRight, ArrowRight, ArrowUpRight, Check, Cloud, Code2, Github,
-  Linkedin, Mail, MapPin, Menu, Network, Server, ShieldCheck, Workflow, X,
+  ArrowDownRight, ArrowUpRight, Check, Cloud, Code2, Github,
+  Linkedin, Mail, MapPin, Menu, Server, ShieldCheck, Workflow, X,
   ExternalLink, Terminal, GraduationCap
 } from 'lucide-react';
 
